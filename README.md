@@ -5,7 +5,7 @@ DOI 10.1016/j.radonc.2020.02.005
 
 
 
-## ## What this model does
+## What this model does
 
 We made the model interoperable by using standardized FHIR data and medical codes like SNOMED and LOINC. It calculates a risk score based on five specific features:
 
@@ -16,7 +16,7 @@ We made the model interoperable by using standardized FHIR data and medical code
 * Corr_GLCM: A specific texture feature from imaging.
 
 
-## ## How the risk is categorized
+## How the risk is categorized
 
 The model gives a percentage score that shows how likely the node is to fail. Based on the original paper, we group these into three levels:
 
@@ -24,14 +24,14 @@ The model gives a percentage score that shows how likely the node is to fail. Ba
 * **Medium Risk**: Score between $10\%$ and $60\%$.
 * **Low Risk**: Score $\le 10\%$.
 
-## ## Files in this repository
+## Files in this repository
 
 * **`myModel.py`**: The main code that processes the patient data, reads the patient in JSON format.
 * **`opdracht.ipynb`**: The notebook where we built and defined the model parameters.
 * **`testing_locally.ipynb`**: A test file with sample patients to make sure everything works.
 * **`requirements.txt`**: The libraries you need to run this code.
 
-## ## How to use it
+## How to use it
 
 pip install -r requirements.txt
 
