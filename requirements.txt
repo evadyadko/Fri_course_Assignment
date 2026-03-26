@@ -1,0 +1,18 @@
+# Requirements file for Zhai et al. (2024) Lymph Node Failure Prediction Model
+# Assignment 2, 3 Apr 2026
+
+# Jupyter environment for running the notebooks
+jupyter
+ipykernel
+
+# opdracht.ipynb for the model implementation
+requests
+
+# testing_locally.ipynb for testing the model locally
+# Note: the model_execution.py needs to be in the same folder as testing_locally.ipynb for the imports to work.
+
+
+
+
+
+
