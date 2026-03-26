@@ -39,8 +39,11 @@ Then you can use it in your own Python script like this:
 Python
 
 from myModel import Zhai_predictLymph
+
 model = Zhai_predictLymph()
+
 result = model.predict(patient_data)
+
 print(result)
 
 ## Project Info
