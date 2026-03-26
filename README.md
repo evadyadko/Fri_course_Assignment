@@ -9,10 +9,10 @@ DOI 10.1016/j.radonc.2020.02.005
 
 We made the model interoperable by using standardized FHIR data and medical codes like SNOMED and LOINC. It calculates a risk score based on five specific features:
 
-* Gender: Coded via SNOMED (Male/Female).
-* T-Stage: Clinical stage T3 or T4.
-* WHO PS: Patient performance status (grades 0-4).
-* LALLN: The length of the largest lymph node.
+* Gender: Coded in SNOMED (Male/Female).
+* T-Stage: Clinical stage in SNOMED T1-T4.
+* WHO PS: Patient performance status in LOINC (grades 0-4).
+* LALLN: The length of the largest lymph node (in cm).
 * Corr_GLCM: A specific texture feature from imaging.
 
 
